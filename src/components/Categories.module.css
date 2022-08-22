@@ -1,0 +1,6 @@
+.list{
+    display: flex;
+}
+.list div{
+    display: flex;
+}
