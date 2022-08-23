@@ -1,0 +1,14 @@
+.footer{
+    border-top: 1px solid lightgray;
+    display:block;
+    align-items: center;
+    position: sticky;
+    background-color: white;
+    bottom: 0;
+    z-index: 100;
+    width: 100%;
+}
+.footer p{
+    font-size: 14px;
+    padding: 5px;
+}

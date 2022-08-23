@@ -1,0 +1,13 @@
+.places{
+    display:flex;
+    flex-flow: row wrap;
+    margin-left: 20px;
+    margin-top: 40px;
+    
+}
+
+@media (max-width: 1500px){
+    .places{
+        width: 100%;
+    }
+}

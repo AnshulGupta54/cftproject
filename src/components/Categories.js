@@ -1,9 +1,12 @@
 import classes from './Categories.module.css';
+import RocketIcon from '@mui/icons-material/Rocket';
+import TerrainIcon from '@mui/icons-material/Terrain';
+import GiteIcon from '@mui/icons-material/Gite';
 const Categories=()=>{
     return <section className={classes.list}>
         <div>
             <button>
-                <img />
+                <RocketIcon />
                 <div>
                     OMG
                 </div>
@@ -11,7 +14,7 @@ const Categories=()=>{
         </div>
         <div>
             <button>
-                <img />
+                <TerrainIcon />
                 <div>
                     National parks
                 </div>
@@ -19,7 +22,7 @@ const Categories=()=>{
         </div>
         <div>
             <button>
-                <img />
+                <GiteIcon />
                 <div>
                     Tiny homes
                 </div>
@@ -27,7 +30,7 @@ const Categories=()=>{
         </div>
         <div>
             <button>
-                <img />
+                <TerrainIcon />
                 <div>
                     Islands
                 </div>
@@ -35,7 +38,7 @@ const Categories=()=>{
         </div>
         <div>
             <button>
-                <img />
+                <GiteIcon />
                 <div>
                     Camping
                 </div>
@@ -43,7 +46,7 @@ const Categories=()=>{
         </div>
         <div>
             <button>
-                <img />
+                <TerrainIcon />
                 <div>
                     Camping
                 </div>
@@ -51,7 +54,7 @@ const Categories=()=>{
         </div>
         <div>
             <button>
-                <img />
+                <RocketIcon />
                 <div>
                     Tiny homes
                 </div>

@@ -1,6 +1,27 @@
 .list{
     display: flex;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
 }
 .list div{
     display: flex;
+}
+.list button{
+    border: none;
+    background-color: white;
+    margin-right: 20px;
+}
+
+.list button:hover{
+    border-bottom: 1px solid black;
+}
+
+@media (max-width: 800px)  {
+    .list{
+        width: 80%;
+    }
 }
