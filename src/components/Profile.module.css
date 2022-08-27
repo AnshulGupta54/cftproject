@@ -1,0 +1,15 @@
+.profile{
+    position: absolute;
+    float: right;
+    right: 0px;
+    top: 4.56rem;
+    width: 18%;
+    height: auto;
+    background-color: white;
+    padding: 1.25rem;
+}
+.profile li{
+    color: black;
+    list-style: none;
+    padding: .62rem;
+}

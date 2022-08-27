@@ -1,8 +1,8 @@
 .place img{
     object-fit: cover;
-    min-width: 300px;
-    min-height: 200px;
+    min-width: 18.75rem;
+    min-height: 12.5rem;
     width: 100%; 
-    border-radius: 10px;
-    height: 300px;
+    border-radius: .62rem;
+    height: 18.75rem;
 }

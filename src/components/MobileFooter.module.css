@@ -1,21 +1,17 @@
-.list{
+.mobile{
     display: flex;
     padding-left: 3.125rem;
     padding-top: .625rem;
     padding-bottom: .18rem;
     position: fixed;
     width: 100%;
+    margin-top: -10px;
     background-color: white;
+    justify-content: center;
 }
-.list div{
+.mobile div{
     display: flex;
-}
-.list button{
-    border: none;
-    background-color: white;
-    margin-right: 1.25rem;
-}
-
-.list button:hover{
-    border-bottom: 1px solid black;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
 }

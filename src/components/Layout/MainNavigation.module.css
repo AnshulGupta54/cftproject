@@ -11,8 +11,8 @@
 }
 .header_icon{
     object-fit: contain;
-    height: 100px;
-    margin-left: 20px;
+    height: 6.25rem;
+    margin-left: 3%;
 }
 
 .header_center{
@@ -20,14 +20,14 @@
     flex: 1;
     align-items: center;
     max-width: fit-content;
-    padding: 10px;
-    height: 30px;
+    padding: .625rem;
+    height: 1.8rem;
     border: 1px solid lightgray;
-    border-radius: 999px;
+    border-radius: 62.4rem;
 }
 .header_center input{
     border: none;
-    padding: 10px;
+    padding: .625rem;
     outline-width: 0;
 }
 .header_right{
@@ -35,5 +35,24 @@
     align-items: center;
     justify-content: space-between;
     width: 15vw;
-    margin-right: 80px;
+    margin-right: 5rem;
+}
+
+.header_right button{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 3.1rem;
+    background-color: white;
+}
+
+@media (max-width : 750px){
+    .header_icon{
+        display: none;
+    }
+    .header_right{
+        display: none;
+    }
+    .header_center input{
+        width: 80vw;
+    }
 }

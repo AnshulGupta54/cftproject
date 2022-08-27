@@ -20,28 +20,28 @@ export const DUMMY_DATA=[{
     price: '18,636 night' 
 },
 {
-    id:'p2',
+    id:'p4',
     src:"../images/indo.jpg" ,
     place: 'Abiansemal, Indonesia',
     distance: '5,807 km',
     price: '95,836 night' 
 },
 {
-    id:'p2',
+    id:'p5',
     src:"../images/indo.jpg" ,
     place: 'Abiansemal, Indonesia',
     distance: '5,807 km',
     price: '95,836 night' 
 },
 {
-    id:'p2',
+    id:'p6',
     src:"../images/indo.jpg" ,
     place: 'Abiansemal, Indonesia',
     distance: '5,807 km',
     price: '95,836 night' 
 },
 {
-    id:'p2',
+    id:'p7',
     src:"../images/indo.jpg" ,
     place: 'Abiansemal, Indonesia',
     distance: '5,807 km',
